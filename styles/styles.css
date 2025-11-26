@@ -1,11 +1,7 @@
-.menu{
-    border-bottom: 1px #000 solid;
+h3{
+    padding: 50px 0px;
+    text-align: center;
 }
-.opciones{
-    width: 30%;
-.menu{
-    border-bottom: 1px #000 solid;
-}
-.opciones{
-    width: 30%;
+.sd-container-modern{
+    background-color: #fff;
 }
