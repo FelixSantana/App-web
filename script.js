@@ -40,7 +40,7 @@ const registrarEstudiante = () => {
         direccion: inputDireccion.value
     };
 
-    fetch("./registro.js", {
+    fetch("http://localhost:3000/registro", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
