@@ -17,7 +17,7 @@ const verificarInputMatricula = () => {
 const consultarEstudiante = () => {
     let matricula = verificarInputMatricula();
     if (matricula !== undefined) {
-        fetch(`https://formulariobd-back.onrender.com/consulta?matricula=${matricula}`)
+        fetch(`https://felixsantana.github.io/App-web/consulta?matricula=${matricula}`)
             .then(res => {
                 if (!res.ok) {
                     throw new Error("Error al consultar la matrícula");
@@ -40,7 +40,7 @@ const registrarEstudiante = () => {
         direccion: inputDireccion.value
     };
 
-    fetch("https://formulariobd-back.onrender.com/registro", {
+    fetch("https://felixsantana.github.io/App-web/registro", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
@@ -145,7 +145,7 @@ const crearFormulario = (tipoDeFormulario, data) => {
                 telefono: inputTelefono.value,
                 direccion: inputDireccion.value
             };
-            fetch(`https://formulariobd-back.onrender.com/actualizar`, {
+            fetch(`https://felixsantana.github.io/App-web/actualizar`, {
                 method: "PUT",
                 headers: {
                     "Content-Type": "application/json"
