@@ -1,1 +1,5 @@
-#Este repositorio es para guardar todo el proceso de la asignatura Laboratorio de Lenguaje de Programación III
+Esta App conciste en un sistema que guarda informaciones de los estudiantes de una institucion educativa, en la cual puede:
+- Consultar estudiantes por medio de la matricula.
+- Registrar estudiantes
+- Eliminar estudiantes
+- Actilizar datos de los estudiantes
