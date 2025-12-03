@@ -40,7 +40,7 @@ const registrarEstudiante = () => {
         direccion: inputDireccion.value
     };
 
-    fetch("https://formulario-con-bd.netlify.app/registro", {
+    fetch("./registro", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
