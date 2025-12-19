@@ -1,13 +1,19 @@
-.form{
-    margin-top: 50px;
-    width: 50%;
+body{
+    background-color: rgba(0, 0, 0, 0.664);
+}
+.contenedor{
+    color: #fff;
     display: flex;
-    justify-self: center;
     flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+    font-size: 20px;
 }
-.estudianteInfo{
-    min-width: 300px;
+hr{
+    margin: 20px 0;
+    width: 100%;
 }
-.botonAccion{
-    margin: 10px;
+#resultado{
+    margin-top: 30px;
+    font-size: 30px;
 }
